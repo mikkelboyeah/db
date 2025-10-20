@@ -19,3 +19,10 @@ models:
         data_tests:
           - unique
           - not_null
+
+  - name: my_first_python_model
+    # Configure in ways that feel intuitive and familiar
+    config:
+      materialized: table
+      tags: ['python']
+      enabled: false
