@@ -1,1 +1,11 @@
 .venv/
+
+# DuckDB database files
+data/
+*.duckdb
+*.duckdb.wal
+
+# dbt artifacts
+transform/target/
+transform/dbt_packages/
+transform/logs/
