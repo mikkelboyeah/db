@@ -1,3 +1,8 @@
 {
-    "dbt.enableNewLineagePanel": true
+    "dbt.enableNewLineagePanel": true,
+    "python.defaultInterpreter": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "dbt.perspectiveTheme": "Vintage"
 }
