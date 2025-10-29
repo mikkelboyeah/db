@@ -1,0 +1,18 @@
+version: "3"
+
+tasks:
+  default:
+    desc: "Lists all available tasks"
+    cmds:
+      - task --list
+
+  duckdb-ui:
+    desc: "Launch the DuckDB UI. Defaults to dev environment. Usage: task duckdb-ui [env=prod]"
+    cmds:
+      - task: duckdb-ui-{{.env | default "dev"}}
+
+  duckdb-ui-dev:
+    internal: true
+    cmds:
+      - echo "Launching DuckDB UI for data/dev.duckdb..."
+      - duckdb data/dev.duckdb -ui
