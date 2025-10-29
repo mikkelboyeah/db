@@ -4,8 +4,7 @@ import pandas as pd
 
 def model(dbt, session):
     dbt.config(
-        materialized="table",
-        enabled=false
+        materialized="table"
     )
 
     url = "https://data.ssb.no/api/v0/no/table/11342"
