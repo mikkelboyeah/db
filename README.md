@@ -2,6 +2,10 @@
 
 This repository contains code and resources for the project located in this directory.
 
+## CLI Usage
+
+We are always using bash as a cli.
+
 ## Dependency Management Prerequisite
 
 **This project requires [uw](https://github.com/ultrafunkamsterdam/uw) for all Python dependency management.**
@@ -48,4 +52,4 @@ This repository contains code and resources for the project located in this dire
 
 ---
 
-Please update this README with specific details about the purpose, setup, and usage of this subproject as needed. 
+Please update this README with specific details about the purpose, setup, and usage of this subproject as needed.
