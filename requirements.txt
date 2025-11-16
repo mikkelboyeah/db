@@ -3,3 +3,4 @@ dbt-core
 dbt-duckdb
 pyjstat
 requests
+ipykernel

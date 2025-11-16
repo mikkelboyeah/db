@@ -4,10 +4,12 @@ transform:
       type: duckdb
       path: dev.duckdb
       threads: 1
+      schema: dev
 
     prod:
       type: duckdb
       path: prod.duckdb
       threads: 4
+      schema: prod
 
-  target: dev 
+  target: dev
